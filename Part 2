@@ -1,0 +1,13 @@
+num_books = int(input('The number of books purchased this month is:')) #Create a variable to have user input the number of books they purchased this month
+
+
+if (num_books == 0) or (num_books == 1): #Create an if statement to check for 0/1 books purchased
+    print('0 points')
+if (num_books == 2) or (num_books == 3): #Create an if statement to check for 2/3 books purchased
+    print('5 points')
+if (num_books == 4) or (num_books == 5): #Create an if statement to check for 4/5 books purchased
+    print('15 points')
+if (num_books == 6) or (num_books == 7): #Create an if statement to check for 6/7 books purchased
+    print('30 points')
+if num_books >= 8: #Create an if statement to check for 8 or greater books purchased
+    print('60 points')
